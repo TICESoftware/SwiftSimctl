@@ -85,6 +85,13 @@ public class SimctlClient {
     dataTask(.erase(env), completion)
   }
 
+  /// Reset the contents of simulator Keychain
+  /// - Parameters:
+  ///   - completion: Result callback of the call. Use this to wait for an expectation to fulfil in a test case.
+  public func eraseKeychain(_ completion: @escaping DataTaskCallback) {
+      dataTask(.eraseKeychain(env), completion)
+  }
+
   /// Set the device UI appearance to given appearance
   /// - Parameters:
   ///   - appearance: The appearance - currently light or dark.

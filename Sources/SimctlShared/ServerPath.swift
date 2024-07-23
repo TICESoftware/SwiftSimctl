@@ -13,6 +13,7 @@ public enum ServerPath: String {
   case renameDevice = "/simctl/renameDevice"
   case terminateApp = "/simctl/terminateApp"
   case erase = "/simctl/erase"
+  case eraseKeychain = "/simctl/eraseKeychain"
   case deviceAppearance = "/simctl/setDeviceAppearance"
   case iCloudSync = "/simctl/iCloudSync"
   case uninstallApp = "/simctl/uninstallApp"

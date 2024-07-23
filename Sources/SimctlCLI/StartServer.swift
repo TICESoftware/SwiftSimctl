@@ -44,6 +44,10 @@ struct StartServer: ParsableCommand {
       runCommand( .simctlErase(device: deviceId), verbose: v)
     }
 
+    server.onEraseKeychain { deviceId -> Result<String, Swift.Error> in
+        runCommand( .simctlEraseKeychain(device: deviceId), verbose: v)
+    }
+
     server.onSetDeviceAppearance { deviceId, _, appearance -> Result<String, Swift.Error> in
       runCommand(.simctlSetUI(appearance: appearance, on: deviceId), verbose: v)
     }

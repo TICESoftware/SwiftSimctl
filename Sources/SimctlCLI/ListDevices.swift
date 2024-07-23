@@ -17,7 +17,7 @@ public enum ListDevicesError: Swift.Error {
 
 struct ListDevices: ParsableCommand {
   static var configuration = CommandConfiguration(abstract: "List the simulator devices")
-  
+
   mutating func run() throws {
     print("\(listDevices().map { $0.description }.sorted().joined(separator: "\n"))")
   }

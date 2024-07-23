@@ -8,6 +8,7 @@ extension SimctlClient {
     case renameDevice(SimctlClientEnvironment, String)
     case terminateApp(SimctlClientEnvironment, String)
     case erase(SimctlClientEnvironment)
+    case eraseKeychain(SimctlClientEnvironment)
     case setDeviceAppearance(SimctlClientEnvironment, DeviceAppearance)
     case triggerICloudSync(SimctlClientEnvironment)
     case uninstallApp(SimctlClientEnvironment, String)
@@ -25,6 +26,7 @@ extension SimctlClient {
           .renameDevice,
           .terminateApp,
           .erase,
+          .eraseKeychain,
           .setDeviceAppearance,
           .triggerICloudSync,
           .uninstallApp:
@@ -48,6 +50,9 @@ extension SimctlClient {
 
       case .erase:
         return .erase
+
+      case .eraseKeychain:
+          return .eraseKeychain
 
       case .setDeviceAppearance:
         return .deviceAppearance
@@ -80,6 +85,7 @@ extension SimctlClient {
       switch self {
       case let .sendPushNotification(env, _),
         let .erase(env),
+        let .eraseKeychain(env),
         let .triggerICloudSync(env),
         let .openURL(env, _),
         let .getAppContainer(env, _):
@@ -125,6 +131,7 @@ extension SimctlClient {
           .renameDevice,
           .terminateApp,
           .erase,
+          .eraseKeychain,
           .setDeviceAppearance,
           .triggerICloudSync,
           .uninstallApp:
