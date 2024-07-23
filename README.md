@@ -35,7 +35,6 @@ The following commands will be available in code in your (test) targets:
 - Send push notifications with custom payload
 - Grant or revoke privacy permissions (i.e. camera, photos ...)
 - Set the device UI appearance to light or dark mode
-- Set status bar overrides (i.e. data network, time ...)
 - Uninstall app by bundle id
 - Terminate app by bundle id
 - Rename device
@@ -43,6 +42,7 @@ The following commands will be available in code in your (test) targets:
 - Open URLs including registered URL schemes
 - Erase the contents and settings of the simulator
 - Get app container
+- Clean iOS simulator Keychain
 
 ## ❔ Why would you (not) use this
 
