@@ -7,13 +7,6 @@
 
 import Foundation
 import SimctlShared
-//#if canImport(UIKit)
-//import UIKit
-//#elseif canImport(AppKit)
-//import AppKit
-//#else
-//#error("Unsupported platform!")
-//#endif
 
 // swiftlint:disable file_length
 
