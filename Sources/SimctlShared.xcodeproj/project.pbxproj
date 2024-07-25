@@ -3,29 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		213EF6E62C5286550061475A /* DeviceAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6DC2C5286550061475A /* DeviceAppearance.swift */; };
+		213EF6E72C5286550061475A /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6DD2C5286550061475A /* AppContainer.swift */; };
+		213EF6E82C5286550061475A /* SimctlShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 213EF6DE2C5286550061475A /* SimctlShared.h */; };
+		213EF6E92C5286550061475A /* SimulatorDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6DF2C5286550061475A /* SimulatorDevice.swift */; };
+		213EF6EA2C5286550061475A /* HeaderFieldKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6E02C5286550061475A /* HeaderFieldKey.swift */; };
+		213EF6EB2C5286550061475A /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6E12C5286550061475A /* Port.swift */; };
+		213EF6EC2C5286550061475A /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6E22C5286550061475A /* Privacy.swift */; };
+		213EF6ED2C5286550061475A /* PushNotificationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6E32C5286550061475A /* PushNotificationContent.swift */; };
+		213EF6EE2C5286550061475A /* URLContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6E42C5286550061475A /* URLContainer.swift */; };
+		213EF6EF2C5286550061475A /* ServerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6E52C5286550061475A /* ServerPath.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		21FD51CC2C515D2400204D5F /* SimctlShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimctlShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213EF6BC2C52850B0061475A /* SimctlShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimctlShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213EF6DC2C5286550061475A /* DeviceAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceAppearance.swift; path = SimctlShared/DeviceAppearance.swift; sourceTree = "<group>"; };
+		213EF6DD2C5286550061475A /* AppContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppContainer.swift; path = SimctlShared/AppContainer.swift; sourceTree = "<group>"; };
+		213EF6DE2C5286550061475A /* SimctlShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimctlShared.h; path = SimctlShared/SimctlShared.h; sourceTree = "<group>"; };
+		213EF6DF2C5286550061475A /* SimulatorDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulatorDevice.swift; path = SimctlShared/SimulatorDevice.swift; sourceTree = "<group>"; };
+		213EF6E02C5286550061475A /* HeaderFieldKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderFieldKey.swift; path = SimctlShared/HeaderFieldKey.swift; sourceTree = "<group>"; };
+		213EF6E12C5286550061475A /* Port.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Port.swift; path = SimctlShared/Port.swift; sourceTree = "<group>"; };
+		213EF6E22C5286550061475A /* Privacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Privacy.swift; path = SimctlShared/Privacy.swift; sourceTree = "<group>"; };
+		213EF6E32C5286550061475A /* PushNotificationContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PushNotificationContent.swift; path = SimctlShared/PushNotificationContent.swift; sourceTree = "<group>"; };
+		213EF6E42C5286550061475A /* URLContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLContainer.swift; path = SimctlShared/URLContainer.swift; sourceTree = "<group>"; };
+		213EF6E52C5286550061475A /* ServerPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerPath.swift; path = SimctlShared/ServerPath.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		21FD51D12C515D2400204D5F /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				SimctlShared.h,
-			);
-			target = 21FD51CB2C515D2400204D5F /* SimctlShared */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		21FD51CE2C515D2400204D5F /* SimctlShared */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (21FD51D12C515D2400204D5F /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = SimctlShared; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		21FD51C92C515D2400204D5F /* Frameworks */ = {
+		213EF6B92C52850B0061475A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,18 +44,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21FD51C22C515D2400204D5F = {
+		213EF6B22C52850B0061475A = {
 			isa = PBXGroup;
 			children = (
-				21FD51CE2C515D2400204D5F /* SimctlShared */,
-				21FD51CD2C515D2400204D5F /* Products */,
+				213EF6DD2C5286550061475A /* AppContainer.swift */,
+				213EF6DC2C5286550061475A /* DeviceAppearance.swift */,
+				213EF6E02C5286550061475A /* HeaderFieldKey.swift */,
+				213EF6E12C5286550061475A /* Port.swift */,
+				213EF6E22C5286550061475A /* Privacy.swift */,
+				213EF6E32C5286550061475A /* PushNotificationContent.swift */,
+				213EF6E52C5286550061475A /* ServerPath.swift */,
+				213EF6DE2C5286550061475A /* SimctlShared.h */,
+				213EF6DF2C5286550061475A /* SimulatorDevice.swift */,
+				213EF6E42C5286550061475A /* URLContainer.swift */,
+				213EF6BD2C52850B0061475A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21FD51CD2C515D2400204D5F /* Products */ = {
+		213EF6BD2C52850B0061475A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21FD51CC2C515D2400204D5F /* SimctlShared.framework */,
+				213EF6BC2C52850B0061475A /* SimctlShared.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,73 +72,70 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		21FD51C72C515D2400204D5F /* Headers */ = {
+		213EF6B72C52850B0061475A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213EF6E82C5286550061475A /* SimctlShared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		21FD51CB2C515D2400204D5F /* SimctlShared */ = {
+		213EF6BB2C52850B0061475A /* SimctlShared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21FD51D22C515D2400204D5F /* Build configuration list for PBXNativeTarget "SimctlShared" */;
+			buildConfigurationList = 213EF6C32C52850B0061475A /* Build configuration list for PBXNativeTarget "SimctlShared" */;
 			buildPhases = (
-				21FD51C72C515D2400204D5F /* Headers */,
-				21FD51C82C515D2400204D5F /* Sources */,
-				21FD51C92C515D2400204D5F /* Frameworks */,
-				21FD51CA2C515D2400204D5F /* Resources */,
+				213EF6B72C52850B0061475A /* Headers */,
+				213EF6B82C52850B0061475A /* Sources */,
+				213EF6B92C52850B0061475A /* Frameworks */,
+				213EF6BA2C52850B0061475A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				21FD51CE2C515D2400204D5F /* SimctlShared */,
-			);
 			name = SimctlShared;
-			packageProductDependencies = (
-			);
 			productName = SimctlShared;
-			productReference = 21FD51CC2C515D2400204D5F /* SimctlShared.framework */;
+			productReference = 213EF6BC2C52850B0061475A /* SimctlShared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21FD51C32C515D2400204D5F /* Project object */ = {
+		213EF6B32C52850B0061475A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					21FD51CB2C515D2400204D5F = {
-						CreatedOnToolsVersion = 16.0;
+					213EF6BB2C52850B0061475A = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 				};
 			};
-			buildConfigurationList = 21FD51C62C515D2400204D5F /* Build configuration list for PBXProject "SimctlShared" */;
-			compatibilityVersion = "Xcode 15.0";
+			buildConfigurationList = 213EF6B62C52850B0061475A /* Build configuration list for PBXProject "SimctlShared" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 21FD51C22C515D2400204D5F;
-			productRefGroup = 21FD51CD2C515D2400204D5F /* Products */;
+			mainGroup = 213EF6B22C52850B0061475A;
+			productRefGroup = 213EF6BD2C52850B0061475A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21FD51CB2C515D2400204D5F /* SimctlShared */,
+				213EF6BB2C52850B0061475A /* SimctlShared */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21FD51CA2C515D2400204D5F /* Resources */ = {
+		213EF6BA2C52850B0061475A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,88 +145,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21FD51C82C515D2400204D5F /* Sources */ = {
+		213EF6B82C52850B0061475A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213EF6E62C5286550061475A /* DeviceAppearance.swift in Sources */,
+				213EF6EA2C5286550061475A /* HeaderFieldKey.swift in Sources */,
+				213EF6EC2C5286550061475A /* Privacy.swift in Sources */,
+				213EF6EF2C5286550061475A /* ServerPath.swift in Sources */,
+				213EF6EE2C5286550061475A /* URLContainer.swift in Sources */,
+				213EF6E92C5286550061475A /* SimulatorDevice.swift in Sources */,
+				213EF6ED2C5286550061475A /* PushNotificationContent.swift in Sources */,
+				213EF6E72C5286550061475A /* AppContainer.swift in Sources */,
+				213EF6EB2C5286550061475A /* Port.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		21FD51D32C515D2400204D5F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		21FD51D42C515D2400204D5F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		21FD51D52C515D2400204D5F /* Debug */ = {
+		213EF6C12C52850B0061475A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -243,7 +200,6 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -274,12 +230,11 @@
 			};
 			name = Debug;
 		};
-		21FD51D62C515D2400204D5F /* Release */ = {
+		213EF6C22C52850B0061475A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -311,7 +266,6 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -335,28 +289,93 @@
 			};
 			name = Release;
 		};
+		213EF6C42C52850B0061475A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		213EF6C52C52850B0061475A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21FD51C62C515D2400204D5F /* Build configuration list for PBXProject "SimctlShared" */ = {
+		213EF6B62C52850B0061475A /* Build configuration list for PBXProject "SimctlShared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21FD51D52C515D2400204D5F /* Debug */,
-				21FD51D62C515D2400204D5F /* Release */,
+				213EF6C12C52850B0061475A /* Debug */,
+				213EF6C22C52850B0061475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21FD51D22C515D2400204D5F /* Build configuration list for PBXNativeTarget "SimctlShared" */ = {
+		213EF6C32C52850B0061475A /* Build configuration list for PBXNativeTarget "SimctlShared" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21FD51D32C515D2400204D5F /* Debug */,
-				21FD51D42C515D2400204D5F /* Release */,
+				213EF6C42C52850B0061475A /* Debug */,
+				213EF6C52C52850B0061475A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21FD51C32C515D2400204D5F /* Project object */;
+	rootObject = 213EF6B32C52850B0061475A /* Project object */;
 }
