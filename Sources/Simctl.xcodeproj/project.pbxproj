@@ -29,7 +29,7 @@
 		216EB93A2C52909D00375BDE /* URLContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9312C52909D00375BDE /* URLContainer.swift */; };
 		216EB93B2C52909D00375BDE /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9322C52909D00375BDE /* AppContainer.swift */; };
 		216EB93C2C5290CA00375BDE /* SimctlShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216EB9232C52907400375BDE /* SimctlShared.framework */; };
-		216EB93D2C5290CA00375BDE /* SimctlShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 216EB9232C52907400375BDE /* SimctlShared.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		216EB93D2C5290CA00375BDE /* SimctlShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 216EB9232C52907400375BDE /* SimctlShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
