@@ -20,6 +20,20 @@
                ReferencedContainer = "container:Simctl.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "216EB9222C52907400375BDE"
+               BuildableName = "SimctlShared.framework"
+               BlueprintName = "SimctlShared"
+               ReferencedContainer = "container:Simctl.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
