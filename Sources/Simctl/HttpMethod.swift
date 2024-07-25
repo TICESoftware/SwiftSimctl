@@ -1,5 +1,3 @@
-
-
 @usableFromInline
 internal enum HttpMethod: String {
     case get = "GET"

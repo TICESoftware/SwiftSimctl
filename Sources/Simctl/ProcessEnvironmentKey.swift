@@ -1,4 +1,3 @@
-
 internal enum ProcessEnvironmentKey: String {
     case simulatorAudioDevicesPlistPath = "SIMULATOR_AUDIO_DEVICES_PLIST_PATH"
     case simulatorAudioSettingsPath = "SIMULATOR_AUDIO_SETTINGS_PATH"
