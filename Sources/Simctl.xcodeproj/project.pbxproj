@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		213EF6D12C5285A10061475A /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6C62C5285A10061475A /* HttpMethod.swift */; };
-		213EF6D22C5285A10061475A /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6C72C5285A10061475A /* Host.swift */; };
-		213EF6D32C5285A10061475A /* SimctlClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6C82C5285A10061475A /* SimctlClient+Error.swift */; };
-		213EF6D42C5285A10061475A /* SimctlClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6C92C5285A10061475A /* SimctlClient.swift */; };
-		213EF6D52C5285A10061475A /* SimctlClient+DataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6CA2C5285A10061475A /* SimctlClient+DataTask.swift */; };
-		213EF6D62C5285A10061475A /* SimctlClient+Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6CB2C5285A10061475A /* SimctlClient+Route.swift */; };
-		213EF6D72C5285A10061475A /* HeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6CC2C5285A10061475A /* HeaderField.swift */; };
-		213EF6D82C5285A10061475A /* SimctlClientEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6CD2C5285A10061475A /* SimctlClientEnvironment.swift */; };
-		213EF6D92C5285A10061475A /* SimulatorEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6CE2C5285A10061475A /* SimulatorEnvironment.swift */; };
-		213EF6DA2C5285A10061475A /* ProcessEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213EF6CF2C5285A10061475A /* ProcessEnvironmentKey.swift */; };
-		213EF6DB2C5285A10061475A /* Simctl.h in Headers */ = {isa = PBXBuildFile; fileRef = 213EF6D02C5285A10061475A /* Simctl.h */; };
-		213EF6F82C528A0A0061475A /* SimctlShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213EF6F72C528A0A0061475A /* SimctlShared.framework */; };
-		213EF6F92C528A0A0061475A /* SimctlShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 213EF6F72C528A0A0061475A /* SimctlShared.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		216EB9132C52905500375BDE /* SimctlClientEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9082C52905500375BDE /* SimctlClientEnvironment.swift */; };
+		216EB9142C52905500375BDE /* SimctlClient+Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9092C52905500375BDE /* SimctlClient+Route.swift */; };
+		216EB9152C52905500375BDE /* SimulatorEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB90A2C52905500375BDE /* SimulatorEnvironment.swift */; };
+		216EB9162C52905500375BDE /* ProcessEnvironmentKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB90B2C52905500375BDE /* ProcessEnvironmentKey.swift */; };
+		216EB9172C52905500375BDE /* Simctl.h in Headers */ = {isa = PBXBuildFile; fileRef = 216EB90C2C52905500375BDE /* Simctl.h */; };
+		216EB9182C52905500375BDE /* SimctlClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB90D2C52905500375BDE /* SimctlClient.swift */; };
+		216EB9192C52905500375BDE /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB90E2C52905500375BDE /* HttpMethod.swift */; };
+		216EB91A2C52905500375BDE /* HeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB90F2C52905500375BDE /* HeaderField.swift */; };
+		216EB91B2C52905500375BDE /* SimctlClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9102C52905500375BDE /* SimctlClient+Error.swift */; };
+		216EB91C2C52905500375BDE /* SimctlClient+DataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9112C52905500375BDE /* SimctlClient+DataTask.swift */; };
+		216EB91D2C52905500375BDE /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9122C52905500375BDE /* Host.swift */; };
+		216EB9262C52907400375BDE /* SimctlShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 216EB9252C52907400375BDE /* SimctlShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216EB9332C52909D00375BDE /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92A2C52909D00375BDE /* Privacy.swift */; };
+		216EB9342C52909D00375BDE /* SimulatorDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92B2C52909D00375BDE /* SimulatorDevice.swift */; };
+		216EB9352C52909D00375BDE /* ServerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92C2C52909D00375BDE /* ServerPath.swift */; };
+		216EB9362C52909D00375BDE /* HeaderFieldKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92D2C52909D00375BDE /* HeaderFieldKey.swift */; };
+		216EB9372C52909D00375BDE /* PushNotificationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92E2C52909D00375BDE /* PushNotificationContent.swift */; };
+		216EB9382C52909D00375BDE /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92F2C52909D00375BDE /* Port.swift */; };
+		216EB9392C52909D00375BDE /* DeviceAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9302C52909D00375BDE /* DeviceAppearance.swift */; };
+		216EB93A2C52909D00375BDE /* URLContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9312C52909D00375BDE /* URLContainer.swift */; };
+		216EB93B2C52909D00375BDE /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9322C52909D00375BDE /* AppContainer.swift */; };
+		216EB93C2C5290CA00375BDE /* SimctlShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216EB9232C52907400375BDE /* SimctlShared.framework */; };
+		216EB93D2C5290CA00375BDE /* SimctlShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 216EB9232C52907400375BDE /* SimctlShared.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		216EB93E2C5290CA00375BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213EF69F2C5284F70061475A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 216EB9222C52907400375BDE;
+			remoteInfo = SimctlShared;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		213EF6FA2C528A0A0061475A /* Embed Frameworks */ = {
@@ -29,7 +49,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				213EF6F92C528A0A0061475A /* SimctlShared.framework in Embed Frameworks */,
+				216EB93D2C5290CA00375BDE /* SimctlShared.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,18 +58,28 @@
 
 /* Begin PBXFileReference section */
 		213EF6A82C5284F70061475A /* Simctl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Simctl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		213EF6C62C5285A10061475A /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpMethod.swift; path = Simctl/HttpMethod.swift; sourceTree = "<group>"; };
-		213EF6C72C5285A10061475A /* Host.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Host.swift; path = Simctl/Host.swift; sourceTree = "<group>"; };
-		213EF6C82C5285A10061475A /* SimctlClient+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SimctlClient+Error.swift"; path = "Simctl/SimctlClient+Error.swift"; sourceTree = "<group>"; };
-		213EF6C92C5285A10061475A /* SimctlClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimctlClient.swift; path = Simctl/SimctlClient.swift; sourceTree = "<group>"; };
-		213EF6CA2C5285A10061475A /* SimctlClient+DataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SimctlClient+DataTask.swift"; path = "Simctl/SimctlClient+DataTask.swift"; sourceTree = "<group>"; };
-		213EF6CB2C5285A10061475A /* SimctlClient+Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SimctlClient+Route.swift"; path = "Simctl/SimctlClient+Route.swift"; sourceTree = "<group>"; };
-		213EF6CC2C5285A10061475A /* HeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderField.swift; path = Simctl/HeaderField.swift; sourceTree = "<group>"; };
-		213EF6CD2C5285A10061475A /* SimctlClientEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimctlClientEnvironment.swift; path = Simctl/SimctlClientEnvironment.swift; sourceTree = "<group>"; };
-		213EF6CE2C5285A10061475A /* SimulatorEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimulatorEnvironment.swift; path = Simctl/SimulatorEnvironment.swift; sourceTree = "<group>"; };
-		213EF6CF2C5285A10061475A /* ProcessEnvironmentKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProcessEnvironmentKey.swift; path = Simctl/ProcessEnvironmentKey.swift; sourceTree = "<group>"; };
-		213EF6D02C5285A10061475A /* Simctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Simctl.h; path = Simctl/Simctl.h; sourceTree = "<group>"; };
-		213EF6F72C528A0A0061475A /* SimctlShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SimctlShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		216EB9082C52905500375BDE /* SimctlClientEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimctlClientEnvironment.swift; sourceTree = "<group>"; };
+		216EB9092C52905500375BDE /* SimctlClient+Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+Route.swift"; sourceTree = "<group>"; };
+		216EB90A2C52905500375BDE /* SimulatorEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorEnvironment.swift; sourceTree = "<group>"; };
+		216EB90B2C52905500375BDE /* ProcessEnvironmentKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessEnvironmentKey.swift; sourceTree = "<group>"; };
+		216EB90C2C52905500375BDE /* Simctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simctl.h; sourceTree = "<group>"; };
+		216EB90D2C52905500375BDE /* SimctlClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimctlClient.swift; sourceTree = "<group>"; };
+		216EB90E2C52905500375BDE /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		216EB90F2C52905500375BDE /* HeaderField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderField.swift; sourceTree = "<group>"; };
+		216EB9102C52905500375BDE /* SimctlClient+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+Error.swift"; sourceTree = "<group>"; };
+		216EB9112C52905500375BDE /* SimctlClient+DataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+DataTask.swift"; sourceTree = "<group>"; };
+		216EB9122C52905500375BDE /* Host.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		216EB9232C52907400375BDE /* SimctlShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimctlShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		216EB9252C52907400375BDE /* SimctlShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimctlShared.h; sourceTree = "<group>"; };
+		216EB92A2C52909D00375BDE /* Privacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
+		216EB92B2C52909D00375BDE /* SimulatorDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorDevice.swift; sourceTree = "<group>"; };
+		216EB92C2C52909D00375BDE /* ServerPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerPath.swift; sourceTree = "<group>"; };
+		216EB92D2C52909D00375BDE /* HeaderFieldKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderFieldKey.swift; sourceTree = "<group>"; };
+		216EB92E2C52909D00375BDE /* PushNotificationContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationContent.swift; sourceTree = "<group>"; };
+		216EB92F2C52909D00375BDE /* Port.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
+		216EB9302C52909D00375BDE /* DeviceAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceAppearance.swift; sourceTree = "<group>"; };
+		216EB9312C52909D00375BDE /* URLContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLContainer.swift; sourceTree = "<group>"; };
+		216EB9322C52909D00375BDE /* AppContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +87,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213EF6F82C528A0A0061475A /* SimctlShared.framework in Frameworks */,
+				216EB93C2C5290CA00375BDE /* SimctlShared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216EB9202C52907400375BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,17 +104,8 @@
 		213EF69E2C5284F70061475A = {
 			isa = PBXGroup;
 			children = (
-				213EF6CC2C5285A10061475A /* HeaderField.swift */,
-				213EF6C72C5285A10061475A /* Host.swift */,
-				213EF6C62C5285A10061475A /* HttpMethod.swift */,
-				213EF6CF2C5285A10061475A /* ProcessEnvironmentKey.swift */,
-				213EF6D02C5285A10061475A /* Simctl.h */,
-				213EF6C92C5285A10061475A /* SimctlClient.swift */,
-				213EF6CA2C5285A10061475A /* SimctlClient+DataTask.swift */,
-				213EF6C82C5285A10061475A /* SimctlClient+Error.swift */,
-				213EF6CB2C5285A10061475A /* SimctlClient+Route.swift */,
-				213EF6CD2C5285A10061475A /* SimctlClientEnvironment.swift */,
-				213EF6CE2C5285A10061475A /* SimulatorEnvironment.swift */,
+				216EB9072C52905500375BDE /* Simctl */,
+				216EB9242C52907400375BDE /* SimctlShared */,
 				213EF6A92C5284F70061475A /* Products */,
 				213EF6F62C528A0A0061475A /* Frameworks */,
 			);
@@ -87,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				213EF6A82C5284F70061475A /* Simctl.framework */,
+				216EB9232C52907400375BDE /* SimctlShared.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +123,43 @@
 		213EF6F62C528A0A0061475A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				213EF6F72C528A0A0061475A /* SimctlShared.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		216EB9072C52905500375BDE /* Simctl */ = {
+			isa = PBXGroup;
+			children = (
+				216EB90F2C52905500375BDE /* HeaderField.swift */,
+				216EB9122C52905500375BDE /* Host.swift */,
+				216EB90E2C52905500375BDE /* HttpMethod.swift */,
+				216EB90B2C52905500375BDE /* ProcessEnvironmentKey.swift */,
+				216EB90C2C52905500375BDE /* Simctl.h */,
+				216EB90D2C52905500375BDE /* SimctlClient.swift */,
+				216EB9112C52905500375BDE /* SimctlClient+DataTask.swift */,
+				216EB9102C52905500375BDE /* SimctlClient+Error.swift */,
+				216EB9092C52905500375BDE /* SimctlClient+Route.swift */,
+				216EB9082C52905500375BDE /* SimctlClientEnvironment.swift */,
+				216EB90A2C52905500375BDE /* SimulatorEnvironment.swift */,
+			);
+			path = Simctl;
+			sourceTree = "<group>";
+		};
+		216EB9242C52907400375BDE /* SimctlShared */ = {
+			isa = PBXGroup;
+			children = (
+				216EB9322C52909D00375BDE /* AppContainer.swift */,
+				216EB9302C52909D00375BDE /* DeviceAppearance.swift */,
+				216EB92D2C52909D00375BDE /* HeaderFieldKey.swift */,
+				216EB92F2C52909D00375BDE /* Port.swift */,
+				216EB92A2C52909D00375BDE /* Privacy.swift */,
+				216EB92E2C52909D00375BDE /* PushNotificationContent.swift */,
+				216EB92C2C52909D00375BDE /* ServerPath.swift */,
+				216EB9252C52907400375BDE /* SimctlShared.h */,
+				216EB92B2C52909D00375BDE /* SimulatorDevice.swift */,
+				216EB9312C52909D00375BDE /* URLContainer.swift */,
+			);
+			path = SimctlShared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +169,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213EF6DB2C5285A10061475A /* Simctl.h in Headers */,
+				216EB9172C52905500375BDE /* Simctl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216EB91E2C52907400375BDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216EB9262C52907400375BDE /* SimctlShared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,10 +197,29 @@
 			buildRules = (
 			);
 			dependencies = (
+				216EB93F2C5290CA00375BDE /* PBXTargetDependency */,
 			);
 			name = Simctl;
 			productName = Simctl;
 			productReference = 213EF6A82C5284F70061475A /* Simctl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		216EB9222C52907400375BDE /* SimctlShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 216EB9272C52907400375BDE /* Build configuration list for PBXNativeTarget "SimctlShared" */;
+			buildPhases = (
+				216EB91E2C52907400375BDE /* Headers */,
+				216EB91F2C52907400375BDE /* Sources */,
+				216EB9202C52907400375BDE /* Frameworks */,
+				216EB9212C52907400375BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimctlShared;
+			productName = SimctlShared;
+			productReference = 216EB9232C52907400375BDE /* SimctlShared.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -142,6 +232,10 @@
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					213EF6A72C5284F70061475A = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+					216EB9222C52907400375BDE = {
 						CreatedOnToolsVersion = 15.1;
 						LastSwiftMigration = 1510;
 					};
@@ -161,12 +255,20 @@
 			projectRoot = "";
 			targets = (
 				213EF6A72C5284F70061475A /* Simctl */,
+				216EB9222C52907400375BDE /* SimctlShared */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		213EF6A62C5284F70061475A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216EB9212C52907400375BDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,20 +282,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213EF6D82C5285A10061475A /* SimctlClientEnvironment.swift in Sources */,
-				213EF6D42C5285A10061475A /* SimctlClient.swift in Sources */,
-				213EF6D72C5285A10061475A /* HeaderField.swift in Sources */,
-				213EF6D12C5285A10061475A /* HttpMethod.swift in Sources */,
-				213EF6D22C5285A10061475A /* Host.swift in Sources */,
-				213EF6D52C5285A10061475A /* SimctlClient+DataTask.swift in Sources */,
-				213EF6D62C5285A10061475A /* SimctlClient+Route.swift in Sources */,
-				213EF6D32C5285A10061475A /* SimctlClient+Error.swift in Sources */,
-				213EF6D92C5285A10061475A /* SimulatorEnvironment.swift in Sources */,
-				213EF6DA2C5285A10061475A /* ProcessEnvironmentKey.swift in Sources */,
+				216EB9142C52905500375BDE /* SimctlClient+Route.swift in Sources */,
+				216EB91D2C52905500375BDE /* Host.swift in Sources */,
+				216EB91A2C52905500375BDE /* HeaderField.swift in Sources */,
+				216EB9182C52905500375BDE /* SimctlClient.swift in Sources */,
+				216EB91B2C52905500375BDE /* SimctlClient+Error.swift in Sources */,
+				216EB9132C52905500375BDE /* SimctlClientEnvironment.swift in Sources */,
+				216EB9152C52905500375BDE /* SimulatorEnvironment.swift in Sources */,
+				216EB91C2C52905500375BDE /* SimctlClient+DataTask.swift in Sources */,
+				216EB9192C52905500375BDE /* HttpMethod.swift in Sources */,
+				216EB9162C52905500375BDE /* ProcessEnvironmentKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216EB91F2C52907400375BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216EB9382C52909D00375BDE /* Port.swift in Sources */,
+				216EB9372C52909D00375BDE /* PushNotificationContent.swift in Sources */,
+				216EB93B2C52909D00375BDE /* AppContainer.swift in Sources */,
+				216EB9352C52909D00375BDE /* ServerPath.swift in Sources */,
+				216EB93A2C52909D00375BDE /* URLContainer.swift in Sources */,
+				216EB9392C52909D00375BDE /* DeviceAppearance.swift in Sources */,
+				216EB9362C52909D00375BDE /* HeaderFieldKey.swift in Sources */,
+				216EB9342C52909D00375BDE /* SimulatorDevice.swift in Sources */,
+				216EB9332C52909D00375BDE /* Privacy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		216EB93F2C5290CA00375BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 216EB9222C52907400375BDE /* SimctlShared */;
+			targetProxy = 216EB93E2C5290CA00375BDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		213EF6AD2C5284F70061475A /* Debug */ = {
@@ -384,6 +510,71 @@
 			};
 			name = Release;
 		};
+		216EB9282C52907400375BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		216EB9292C52907400375BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -401,6 +592,15 @@
 			buildConfigurations = (
 				213EF6B02C5284F70061475A /* Debug */,
 				213EF6B12C5284F70061475A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		216EB9272C52907400375BDE /* Build configuration list for PBXNativeTarget "SimctlShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216EB9282C52907400375BDE /* Debug */,
+				216EB9292C52907400375BDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
