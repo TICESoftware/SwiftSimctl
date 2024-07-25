@@ -1,10 +1,3 @@
-//
-//  SimctlShared.swift
-//
-//
-//  Created by Christian Treffs on 18.03.20.
-//
-
 import Foundation
 
 public enum ServerPath: String {
