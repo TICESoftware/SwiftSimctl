@@ -1,10 +1,3 @@
-//
-//  SimctlShared.h
-//  SimctlShared
-//
-//  Created by Ivan Smirnov on 25.07.24.
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for SimctlShared.

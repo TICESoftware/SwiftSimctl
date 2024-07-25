@@ -1,4 +1,3 @@
-
 /// Some permission changes will terminate the application if running.
 public enum PrivacyAction: String {
   /// Grant access without prompting. Requires bundle identifier.
