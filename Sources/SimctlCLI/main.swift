@@ -5,8 +5,7 @@ struct SimctlCLI: ParsableCommand {
     commandName: "SimctlCLI",
     abstract: "Swift client-server tool to call xcrun simctl from your test code.",
     subcommands: [
-      StartServer.self,
-      ListDevices.self
+      StartServer.self
     ]
   )
 }
