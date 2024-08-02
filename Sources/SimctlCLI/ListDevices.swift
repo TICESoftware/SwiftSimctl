@@ -5,7 +5,6 @@
 //  Created by Christian Treffs on 18.03.20.
 //
 
-import ArgumentParser
 import Foundation
 import ShellOut
 import SimctlShared
@@ -15,17 +14,20 @@ public enum ListDevicesError: Swift.Error {
   case dataConversionFailed
 }
 
-struct ListDevices: ParsableCommand {
-  static var configuration = CommandConfiguration(abstract: "List the simulator devices")
-
-  mutating func run() throws {
-    print("\(listDevices().map { $0.description }.sorted().joined(separator: "\n"))")
-  }
+// Default Device Set
+func listRegularDevices() -> [SimulatorDevice] {
+  let cmd: String = "xcrun simctl list devices -v --json"
+  return runListDevices(cmd)
+}
+// Parallel Testing Device Clones Device Set
+func listClonedDevices() -> [SimulatorDevice] {
+  let cmd: String = "xcrun simctl --set testing list devices -v --json"
+  return runListDevices(cmd)
 }
 
-private func listDevices() -> [SimulatorDevice] {
+private func runListDevices(_ command: String) -> [SimulatorDevice] {
   do {
-    let devicesJSONString = try shellOut(to: .simctlList(.devices, true))
+    let devicesJSONString = try shellOut(to: command)
     guard let devicesData: Data = devicesJSONString.data(using: .utf8) else {
       throw ListDevicesError.dataConversionFailed
     }
