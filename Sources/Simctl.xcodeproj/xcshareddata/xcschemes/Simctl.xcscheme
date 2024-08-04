@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1510"
+   LastUpgradeVersion = "1600"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -28,8 +28,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "216EB9222C52907400375BDE"
-               BuildableName = "SimctlShared.framework"
+               BlueprintIdentifier = "21479EB52C5D885000A316A0"
+               BuildableName = "libSimctlShared.a"
                BlueprintName = "SimctlShared"
                ReferencedContainer = "container:Simctl.xcodeproj">
             </BuildableReference>

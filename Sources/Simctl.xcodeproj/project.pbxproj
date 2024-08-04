@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21479E872C5D2A4700A316A0 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 21479E862C5D2A4700A316A0 /* ArgumentParser */; };
+		21479E9B2C5D2AE000A316A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479E962C5D2AE000A316A0 /* main.swift */; };
+		21479E9C2C5D2AE000A316A0 /* StartServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479E982C5D2AE000A316A0 /* StartServer.swift */; };
+		21479E9D2C5D2AE000A316A0 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479E942C5D2AE000A316A0 /* Commands.swift */; };
+		21479E9E2C5D2AE000A316A0 /* ListDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479E952C5D2AE000A316A0 /* ListDevices.swift */; };
+		21479E9F2C5D2AE000A316A0 /* SimctlServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479E972C5D2AE000A316A0 /* SimctlServer.swift */; };
+		21479EA02C5D2AE000A316A0 /* Swifter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479E992C5D2AE000A316A0 /* Swifter+Extensions.swift */; };
+		21479EA32C5D2B3C00A316A0 /* ShellOut in Frameworks */ = {isa = PBXBuildFile; productRef = 21479EA22C5D2B3C00A316A0 /* ShellOut */; };
+		21479EAC2C5D2D1E00A316A0 /* Swifter in Frameworks */ = {isa = PBXBuildFile; productRef = 21479EAB2C5D2D1E00A316A0 /* Swifter */; };
+		21479EDE2C5D888300A316A0 /* SimulatorDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479EDA2C5D888300A316A0 /* SimulatorDevice.swift */; };
+		21479EE02C5D888300A316A0 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479ED12C5D888300A316A0 /* AppContainer.swift */; };
+		21479EE12C5D888300A316A0 /* ServerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479ED72C5D888300A316A0 /* ServerPath.swift */; };
+		21479EE22C5D888300A316A0 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479ED42C5D888300A316A0 /* Port.swift */; };
+		21479EE32C5D888300A316A0 /* HeaderFieldKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479ED32C5D888300A316A0 /* HeaderFieldKey.swift */; };
+		21479EE42C5D888300A316A0 /* PushNotificationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479ED62C5D888300A316A0 /* PushNotificationContent.swift */; };
+		21479EE52C5D888300A316A0 /* URLContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479EDB2C5D888300A316A0 /* URLContainer.swift */; };
+		21479EE62C5D888300A316A0 /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479ED52C5D888300A316A0 /* Privacy.swift */; };
+		21479EE72C5D888300A316A0 /* DeviceAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21479ED22C5D888300A316A0 /* DeviceAppearance.swift */; };
+		21479EEA2C5D8D5A00A316A0 /* libSimctlShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21479EB62C5D885000A316A0 /* libSimctlShared.a */; };
 		216EB9132C52905500375BDE /* SimctlClientEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9082C52905500375BDE /* SimctlClientEnvironment.swift */; };
 		216EB9142C52905500375BDE /* SimctlClient+Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9092C52905500375BDE /* SimctlClient+Route.swift */; };
 		216EB9152C52905500375BDE /* SimulatorEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB90A2C52905500375BDE /* SimulatorEnvironment.swift */; };
@@ -18,26 +37,14 @@
 		216EB91B2C52905500375BDE /* SimctlClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9102C52905500375BDE /* SimctlClient+Error.swift */; };
 		216EB91C2C52905500375BDE /* SimctlClient+DataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9112C52905500375BDE /* SimctlClient+DataTask.swift */; };
 		216EB91D2C52905500375BDE /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9122C52905500375BDE /* Host.swift */; };
-		216EB9262C52907400375BDE /* SimctlShared.h in Headers */ = {isa = PBXBuildFile; fileRef = 216EB9252C52907400375BDE /* SimctlShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		216EB9332C52909D00375BDE /* Privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92A2C52909D00375BDE /* Privacy.swift */; };
-		216EB9342C52909D00375BDE /* SimulatorDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92B2C52909D00375BDE /* SimulatorDevice.swift */; };
-		216EB9352C52909D00375BDE /* ServerPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92C2C52909D00375BDE /* ServerPath.swift */; };
-		216EB9362C52909D00375BDE /* HeaderFieldKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92D2C52909D00375BDE /* HeaderFieldKey.swift */; };
-		216EB9372C52909D00375BDE /* PushNotificationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92E2C52909D00375BDE /* PushNotificationContent.swift */; };
-		216EB9382C52909D00375BDE /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB92F2C52909D00375BDE /* Port.swift */; };
-		216EB9392C52909D00375BDE /* DeviceAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9302C52909D00375BDE /* DeviceAppearance.swift */; };
-		216EB93A2C52909D00375BDE /* URLContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9312C52909D00375BDE /* URLContainer.swift */; };
-		216EB93B2C52909D00375BDE /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9322C52909D00375BDE /* AppContainer.swift */; };
-		216EB93C2C5290CA00375BDE /* SimctlShared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 216EB9232C52907400375BDE /* SimctlShared.framework */; };
-		216EB93D2C5290CA00375BDE /* SimctlShared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 216EB9232C52907400375BDE /* SimctlShared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		216EB93E2C5290CA00375BDE /* PBXContainerItemProxy */ = {
+		21479EE82C5D8D1F00A316A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 213EF69F2C5284F70061475A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 216EB9222C52907400375BDE;
+			remoteGlobalIDString = 21479EB52C5D885000A316A0;
 			remoteInfo = SimctlShared;
 		};
 /* End PBXContainerItemProxy section */
@@ -49,7 +56,25 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				216EB93D2C5290CA00375BDE /* SimctlShared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21479E612C5D280D00A316A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		21479EB12C5D2D5100A316A0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,6 +83,23 @@
 
 /* Begin PBXFileReference section */
 		213EF6A82C5284F70061475A /* Simctl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Simctl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21479E632C5D280D00A316A0 /* CLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		21479E942C5D2AE000A316A0 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		21479E952C5D2AE000A316A0 /* ListDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDevices.swift; sourceTree = "<group>"; };
+		21479E962C5D2AE000A316A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		21479E972C5D2AE000A316A0 /* SimctlServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimctlServer.swift; sourceTree = "<group>"; };
+		21479E982C5D2AE000A316A0 /* StartServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartServer.swift; sourceTree = "<group>"; };
+		21479E992C5D2AE000A316A0 /* Swifter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swifter+Extensions.swift"; sourceTree = "<group>"; };
+		21479EB62C5D885000A316A0 /* libSimctlShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimctlShared.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		21479ED12C5D888300A316A0 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		21479ED22C5D888300A316A0 /* DeviceAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAppearance.swift; sourceTree = "<group>"; };
+		21479ED32C5D888300A316A0 /* HeaderFieldKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFieldKey.swift; sourceTree = "<group>"; };
+		21479ED42C5D888300A316A0 /* Port.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
+		21479ED52C5D888300A316A0 /* Privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
+		21479ED62C5D888300A316A0 /* PushNotificationContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationContent.swift; sourceTree = "<group>"; };
+		21479ED72C5D888300A316A0 /* ServerPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerPath.swift; sourceTree = "<group>"; };
+		21479EDA2C5D888300A316A0 /* SimulatorDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorDevice.swift; sourceTree = "<group>"; };
+		21479EDB2C5D888300A316A0 /* URLContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLContainer.swift; sourceTree = "<group>"; };
 		216EB9082C52905500375BDE /* SimctlClientEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimctlClientEnvironment.swift; sourceTree = "<group>"; };
 		216EB9092C52905500375BDE /* SimctlClient+Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+Route.swift"; sourceTree = "<group>"; };
 		216EB90A2C52905500375BDE /* SimulatorEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorEnvironment.swift; sourceTree = "<group>"; };
@@ -69,17 +111,6 @@
 		216EB9102C52905500375BDE /* SimctlClient+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+Error.swift"; sourceTree = "<group>"; };
 		216EB9112C52905500375BDE /* SimctlClient+DataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+DataTask.swift"; sourceTree = "<group>"; };
 		216EB9122C52905500375BDE /* Host.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
-		216EB9232C52907400375BDE /* SimctlShared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimctlShared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		216EB9252C52907400375BDE /* SimctlShared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimctlShared.h; sourceTree = "<group>"; };
-		216EB92A2C52909D00375BDE /* Privacy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Privacy.swift; sourceTree = "<group>"; };
-		216EB92B2C52909D00375BDE /* SimulatorDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulatorDevice.swift; sourceTree = "<group>"; };
-		216EB92C2C52909D00375BDE /* ServerPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerPath.swift; sourceTree = "<group>"; };
-		216EB92D2C52909D00375BDE /* HeaderFieldKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderFieldKey.swift; sourceTree = "<group>"; };
-		216EB92E2C52909D00375BDE /* PushNotificationContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationContent.swift; sourceTree = "<group>"; };
-		216EB92F2C52909D00375BDE /* Port.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
-		216EB9302C52909D00375BDE /* DeviceAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceAppearance.swift; sourceTree = "<group>"; };
-		216EB9312C52909D00375BDE /* URLContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLContainer.swift; sourceTree = "<group>"; };
-		216EB9322C52909D00375BDE /* AppContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +118,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216EB93C2C5290CA00375BDE /* SimctlShared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		216EB9202C52907400375BDE /* Frameworks */ = {
+		21479E602C5D280D00A316A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21479EEA2C5D8D5A00A316A0 /* libSimctlShared.a in Frameworks */,
+				21479EA32C5D2B3C00A316A0 /* ShellOut in Frameworks */,
+				21479E872C5D2A4700A316A0 /* ArgumentParser in Frameworks */,
+				21479EAC2C5D2D1E00A316A0 /* Swifter in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21479EB42C5D885000A316A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,10 +145,11 @@
 		213EF69E2C5284F70061475A = {
 			isa = PBXGroup;
 			children = (
-				216EB9072C52905500375BDE /* Simctl */,
-				216EB9242C52907400375BDE /* SimctlShared */,
-				213EF6A92C5284F70061475A /* Products */,
 				213EF6F62C528A0A0061475A /* Frameworks */,
+				213EF6A92C5284F70061475A /* Products */,
+				216EB9072C52905500375BDE /* Simctl */,
+				21479E9A2C5D2AE000A316A0 /* SimctlCLI */,
+				21479EDC2C5D888300A316A0 /* SimctlShared */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				213EF6A82C5284F70061475A /* Simctl.framework */,
-				216EB9232C52907400375BDE /* SimctlShared.framework */,
+				21479E632C5D280D00A316A0 /* CLI */,
+				21479EB62C5D885000A316A0 /* libSimctlShared.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +168,35 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21479E9A2C5D2AE000A316A0 /* SimctlCLI */ = {
+			isa = PBXGroup;
+			children = (
+				21479E942C5D2AE000A316A0 /* Commands.swift */,
+				21479E952C5D2AE000A316A0 /* ListDevices.swift */,
+				21479E962C5D2AE000A316A0 /* main.swift */,
+				21479E972C5D2AE000A316A0 /* SimctlServer.swift */,
+				21479E982C5D2AE000A316A0 /* StartServer.swift */,
+				21479E992C5D2AE000A316A0 /* Swifter+Extensions.swift */,
+			);
+			path = SimctlCLI;
+			sourceTree = "<group>";
+		};
+		21479EDC2C5D888300A316A0 /* SimctlShared */ = {
+			isa = PBXGroup;
+			children = (
+				21479ED12C5D888300A316A0 /* AppContainer.swift */,
+				21479ED22C5D888300A316A0 /* DeviceAppearance.swift */,
+				21479ED32C5D888300A316A0 /* HeaderFieldKey.swift */,
+				21479ED42C5D888300A316A0 /* Port.swift */,
+				21479ED52C5D888300A316A0 /* Privacy.swift */,
+				21479ED62C5D888300A316A0 /* PushNotificationContent.swift */,
+				21479ED72C5D888300A316A0 /* ServerPath.swift */,
+				21479EDA2C5D888300A316A0 /* SimulatorDevice.swift */,
+				21479EDB2C5D888300A316A0 /* URLContainer.swift */,
+			);
+			path = SimctlShared;
 			sourceTree = "<group>";
 		};
 		216EB9072C52905500375BDE /* Simctl */ = {
@@ -145,23 +217,6 @@
 			path = Simctl;
 			sourceTree = "<group>";
 		};
-		216EB9242C52907400375BDE /* SimctlShared */ = {
-			isa = PBXGroup;
-			children = (
-				216EB9322C52909D00375BDE /* AppContainer.swift */,
-				216EB9302C52909D00375BDE /* DeviceAppearance.swift */,
-				216EB92D2C52909D00375BDE /* HeaderFieldKey.swift */,
-				216EB92F2C52909D00375BDE /* Port.swift */,
-				216EB92A2C52909D00375BDE /* Privacy.swift */,
-				216EB92E2C52909D00375BDE /* PushNotificationContent.swift */,
-				216EB92C2C52909D00375BDE /* ServerPath.swift */,
-				216EB9252C52907400375BDE /* SimctlShared.h */,
-				216EB92B2C52909D00375BDE /* SimulatorDevice.swift */,
-				216EB9312C52909D00375BDE /* URLContainer.swift */,
-			);
-			path = SimctlShared;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -173,11 +228,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		216EB91E2C52907400375BDE /* Headers */ = {
+		21479EB22C5D885000A316A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216EB9262C52907400375BDE /* SimctlShared.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,30 +251,54 @@
 			buildRules = (
 			);
 			dependencies = (
-				216EB93F2C5290CA00375BDE /* PBXTargetDependency */,
 			);
 			name = Simctl;
 			productName = Simctl;
 			productReference = 213EF6A82C5284F70061475A /* Simctl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		216EB9222C52907400375BDE /* SimctlShared */ = {
+		21479E622C5D280D00A316A0 /* CLI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 216EB9272C52907400375BDE /* Build configuration list for PBXNativeTarget "SimctlShared" */;
+			buildConfigurationList = 21479E692C5D280D00A316A0 /* Build configuration list for PBXNativeTarget "CLI" */;
 			buildPhases = (
-				216EB91E2C52907400375BDE /* Headers */,
-				216EB91F2C52907400375BDE /* Sources */,
-				216EB9202C52907400375BDE /* Frameworks */,
-				216EB9212C52907400375BDE /* Resources */,
+				21479E5F2C5D280D00A316A0 /* Sources */,
+				21479E602C5D280D00A316A0 /* Frameworks */,
+				21479E612C5D280D00A316A0 /* CopyFiles */,
+				21479EB12C5D2D5100A316A0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21479EE92C5D8D1F00A316A0 /* PBXTargetDependency */,
+			);
+			name = CLI;
+			packageProductDependencies = (
+				21479E862C5D2A4700A316A0 /* ArgumentParser */,
+				21479EA22C5D2B3C00A316A0 /* ShellOut */,
+				21479EAB2C5D2D1E00A316A0 /* Swifter */,
+			);
+			productName = CLI;
+			productReference = 21479E632C5D280D00A316A0 /* CLI */;
+			productType = "com.apple.product-type.tool";
+		};
+		21479EB52C5D885000A316A0 /* SimctlShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21479EBC2C5D885000A316A0 /* Build configuration list for PBXNativeTarget "SimctlShared" */;
+			buildPhases = (
+				21479EB22C5D885000A316A0 /* Headers */,
+				21479EB32C5D885000A316A0 /* Sources */,
+				21479EB42C5D885000A316A0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SimctlShared;
+			packageProductDependencies = (
+			);
 			productName = SimctlShared;
-			productReference = 216EB9232C52907400375BDE /* SimctlShared.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 21479EB62C5D885000A316A0 /* libSimctlShared.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -229,15 +307,18 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1510;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					213EF6A72C5284F70061475A = {
 						CreatedOnToolsVersion = 15.1;
 						LastSwiftMigration = 1510;
 					};
-					216EB9222C52907400375BDE = {
-						CreatedOnToolsVersion = 15.1;
-						LastSwiftMigration = 1510;
+					21479E622C5D280D00A316A0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					21479EB52C5D885000A316A0 = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
@@ -250,25 +331,24 @@
 				Base,
 			);
 			mainGroup = 213EF69E2C5284F70061475A;
+			packageReferences = (
+				21479E852C5D2A4700A316A0 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+				21479EA12C5D2B3C00A316A0 /* XCRemoteSwiftPackageReference "ShellOut" */,
+				21479EAA2C5D2D1E00A316A0 /* XCRemoteSwiftPackageReference "swifter" */,
+			);
 			productRefGroup = 213EF6A92C5284F70061475A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				213EF6A72C5284F70061475A /* Simctl */,
-				216EB9222C52907400375BDE /* SimctlShared */,
+				21479E622C5D280D00A316A0 /* CLI */,
+				21479EB52C5D885000A316A0 /* SimctlShared */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		213EF6A62C5284F70061475A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		216EB9212C52907400375BDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,29 +375,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		216EB91F2C52907400375BDE /* Sources */ = {
+		21479E5F2C5D280D00A316A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				216EB9382C52909D00375BDE /* Port.swift in Sources */,
-				216EB9372C52909D00375BDE /* PushNotificationContent.swift in Sources */,
-				216EB93B2C52909D00375BDE /* AppContainer.swift in Sources */,
-				216EB9352C52909D00375BDE /* ServerPath.swift in Sources */,
-				216EB93A2C52909D00375BDE /* URLContainer.swift in Sources */,
-				216EB9392C52909D00375BDE /* DeviceAppearance.swift in Sources */,
-				216EB9362C52909D00375BDE /* HeaderFieldKey.swift in Sources */,
-				216EB9342C52909D00375BDE /* SimulatorDevice.swift in Sources */,
-				216EB9332C52909D00375BDE /* Privacy.swift in Sources */,
+				21479E9B2C5D2AE000A316A0 /* main.swift in Sources */,
+				21479E9C2C5D2AE000A316A0 /* StartServer.swift in Sources */,
+				21479E9D2C5D2AE000A316A0 /* Commands.swift in Sources */,
+				21479E9E2C5D2AE000A316A0 /* ListDevices.swift in Sources */,
+				21479E9F2C5D2AE000A316A0 /* SimctlServer.swift in Sources */,
+				21479EA02C5D2AE000A316A0 /* Swifter+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21479EB32C5D885000A316A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21479EDE2C5D888300A316A0 /* SimulatorDevice.swift in Sources */,
+				21479EE02C5D888300A316A0 /* AppContainer.swift in Sources */,
+				21479EE12C5D888300A316A0 /* ServerPath.swift in Sources */,
+				21479EE22C5D888300A316A0 /* Port.swift in Sources */,
+				21479EE32C5D888300A316A0 /* HeaderFieldKey.swift in Sources */,
+				21479EE42C5D888300A316A0 /* PushNotificationContent.swift in Sources */,
+				21479EE52C5D888300A316A0 /* URLContainer.swift in Sources */,
+				21479EE62C5D888300A316A0 /* Privacy.swift in Sources */,
+				21479EE72C5D888300A316A0 /* DeviceAppearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		216EB93F2C5290CA00375BDE /* PBXTargetDependency */ = {
+		21479EE92C5D8D1F00A316A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 216EB9222C52907400375BDE /* SimctlShared */;
-			targetProxy = 216EB93E2C5290CA00375BDE /* PBXContainerItemProxy */;
+			target = 21479EB52C5D885000A316A0 /* SimctlShared */;
+			targetProxy = 21479EE82C5D8D1F00A316A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -451,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -483,6 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -510,68 +605,55 @@
 			};
 			name = Release;
 		};
-		216EB9282C52907400375BDE /* Debug */ = {
+		21479E672C5D280D00A316A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		216EB9292C52907400375BDE /* Release */ = {
+		21479E682C5D280D00A316A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlShared";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21479EBD2C5D885000A316A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		21479EBE2C5D885000A316A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -596,16 +678,70 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		216EB9272C52907400375BDE /* Build configuration list for PBXNativeTarget "SimctlShared" */ = {
+		21479E692C5D280D00A316A0 /* Build configuration list for PBXNativeTarget "CLI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				216EB9282C52907400375BDE /* Debug */,
-				216EB9292C52907400375BDE /* Release */,
+				21479E672C5D280D00A316A0 /* Debug */,
+				21479E682C5D280D00A316A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21479EBC2C5D885000A316A0 /* Build configuration list for PBXNativeTarget "SimctlShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21479EBD2C5D885000A316A0 /* Debug */,
+				21479EBE2C5D885000A316A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21479E852C5D2A4700A316A0 /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+		21479EA12C5D2B3C00A316A0 /* XCRemoteSwiftPackageReference "ShellOut" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/ShellOut.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.0;
+			};
+		};
+		21479EAA2C5D2D1E00A316A0 /* XCRemoteSwiftPackageReference "swifter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/httpswift/swifter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21479E862C5D2A4700A316A0 /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21479E852C5D2A4700A316A0 /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+		21479EA22C5D2B3C00A316A0 /* ShellOut */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21479EA12C5D2B3C00A316A0 /* XCRemoteSwiftPackageReference "ShellOut" */;
+			productName = ShellOut;
+		};
+		21479EAB2C5D2D1E00A316A0 /* Swifter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21479EAA2C5D2D1E00A316A0 /* XCRemoteSwiftPackageReference "swifter" */;
+			productName = Swifter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 213EF69F2C5284F70061475A /* Project object */;
 }
