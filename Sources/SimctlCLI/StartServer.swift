@@ -45,7 +45,7 @@ struct StartServer: ParsableCommand {
     }
 
     server.onEraseKeychain { deviceId -> Result<String, Swift.Error> in
-        runCommand( .simctlEraseKeychain(device: deviceId), verbose: v)
+      runCommand( .simctlEraseKeychain(device: deviceId), verbose: v)
     }
 
     server.onSetDeviceAppearance { deviceId, _, appearance -> Result<String, Swift.Error> in
@@ -59,7 +59,7 @@ struct StartServer: ParsableCommand {
     server.onUninstallApp { deviceId, _, appBundleId -> Result<String, Swift.Error> in
       runCommand(.simctlUninstallApp(device: deviceId, appBundleIdentifier: appBundleId), verbose: v)
     }
-
+    
     server.onOpenUrl { deviceId, _, url -> Result<String, Swift.Error> in
       runCommand(.simctlOpen(url: url, on: deviceId))
     }

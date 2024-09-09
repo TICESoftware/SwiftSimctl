@@ -37,10 +37,45 @@
 		216EB91B2C52905500375BDE /* SimctlClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9102C52905500375BDE /* SimctlClient+Error.swift */; };
 		216EB91C2C52905500375BDE /* SimctlClient+DataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9112C52905500375BDE /* SimctlClient+DataTask.swift */; };
 		216EB91D2C52905500375BDE /* Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216EB9122C52905500375BDE /* Host.swift */; };
+		218F513E2C74A956006CA259 /* libSimctlShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21479EB62C5D885000A316A0 /* libSimctlShared.a */; };
+		218F51482C74AA08006CA259 /* SimctlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F51472C74AA08006CA259 /* SimctlTests.swift */; };
+		218F51492C74AA08006CA259 /* Simctl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213EF6A82C5284F70061475A /* Simctl.framework */; };
+		218F51502C74B120006CA259 /* SimulatorDeviceListingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F514F2C74B120006CA259 /* SimulatorDeviceListingTests.swift */; };
+		218F51532C74B5A6006CA259 /* libSimctlShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21479EB62C5D885000A316A0 /* libSimctlShared.a */; };
+		218F51572C74B782006CA259 /* TestBundleResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F51562C74B782006CA259 /* TestBundleResources.swift */; };
+		218F51592C74B7A1006CA259 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 218F51582C74B7A1006CA259 /* resources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		21479EE82C5D8D1F00A316A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213EF69F2C5284F70061475A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21479EB52C5D885000A316A0;
+			remoteInfo = SimctlShared;
+		};
+		218F513F2C74A964006CA259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213EF69F2C5284F70061475A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21479EB52C5D885000A316A0;
+			remoteInfo = SimctlShared;
+		};
+		218F514A2C74AA08006CA259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213EF69F2C5284F70061475A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 213EF6A72C5284F70061475A;
+			remoteInfo = Simctl;
+		};
+		218F51512C74B598006CA259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 213EF69F2C5284F70061475A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21479EB52C5D885000A316A0;
+			remoteInfo = SimctlShared;
+		};
+		218F51542C74B5A6006CA259 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 213EF69F2C5284F70061475A /* Project object */;
 			proxyType = 1;
@@ -111,6 +146,11 @@
 		216EB9102C52905500375BDE /* SimctlClient+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+Error.swift"; sourceTree = "<group>"; };
 		216EB9112C52905500375BDE /* SimctlClient+DataTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SimctlClient+DataTask.swift"; sourceTree = "<group>"; };
 		216EB9122C52905500375BDE /* Host.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Host.swift; sourceTree = "<group>"; };
+		218F51452C74AA08006CA259 /* SimctlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimctlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		218F51472C74AA08006CA259 /* SimctlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimctlTests.swift; sourceTree = "<group>"; };
+		218F514F2C74B120006CA259 /* SimulatorDeviceListingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorDeviceListingTests.swift; sourceTree = "<group>"; };
+		218F51562C74B782006CA259 /* TestBundleResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBundleResources.swift; sourceTree = "<group>"; };
+		218F51582C74B7A1006CA259 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218F513E2C74A956006CA259 /* libSimctlShared.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +180,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		218F51422C74AA08006CA259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218F51532C74B5A6006CA259 /* libSimctlShared.a in Frameworks */,
+				218F51492C74AA08006CA259 /* Simctl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -150,6 +200,7 @@
 				216EB9072C52905500375BDE /* Simctl */,
 				21479E9A2C5D2AE000A316A0 /* SimctlCLI */,
 				21479EDC2C5D888300A316A0 /* SimctlShared */,
+				218F51462C74AA08006CA259 /* SimctlTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +210,7 @@
 				213EF6A82C5284F70061475A /* Simctl.framework */,
 				21479E632C5D280D00A316A0 /* CLI */,
 				21479EB62C5D885000A316A0 /* libSimctlShared.a */,
+				218F51452C74AA08006CA259 /* SimctlTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +269,17 @@
 			path = Simctl;
 			sourceTree = "<group>";
 		};
+		218F51462C74AA08006CA259 /* SimctlTests */ = {
+			isa = PBXGroup;
+			children = (
+				218F51582C74B7A1006CA259 /* resources.bundle */,
+				218F51472C74AA08006CA259 /* SimctlTests.swift */,
+				218F514F2C74B120006CA259 /* SimulatorDeviceListingTests.swift */,
+				218F51562C74B782006CA259 /* TestBundleResources.swift */,
+			);
+			path = SimctlTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -251,6 +314,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				218F51402C74A964006CA259 /* PBXTargetDependency */,
 			);
 			name = Simctl;
 			productName = Simctl;
@@ -300,6 +364,26 @@
 			productReference = 21479EB62C5D885000A316A0 /* libSimctlShared.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		218F51442C74AA08006CA259 /* SimctlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218F514C2C74AA08006CA259 /* Build configuration list for PBXNativeTarget "SimctlTests" */;
+			buildPhases = (
+				218F51412C74AA08006CA259 /* Sources */,
+				218F51422C74AA08006CA259 /* Frameworks */,
+				218F51432C74AA08006CA259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				218F51522C74B598006CA259 /* PBXTargetDependency */,
+				218F514B2C74AA08006CA259 /* PBXTargetDependency */,
+				218F51552C74B5A6006CA259 /* PBXTargetDependency */,
+			);
+			name = SimctlTests;
+			productName = SimctlTests;
+			productReference = 218F51452C74AA08006CA259 /* SimctlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -307,7 +391,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					213EF6A72C5284F70061475A = {
@@ -319,6 +403,9 @@
 					};
 					21479EB52C5D885000A316A0 = {
 						CreatedOnToolsVersion = 16.0;
+					};
+					218F51442C74AA08006CA259 = {
+						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
@@ -343,6 +430,7 @@
 				213EF6A72C5284F70061475A /* Simctl */,
 				21479E622C5D280D00A316A0 /* CLI */,
 				21479EB52C5D885000A316A0 /* SimctlShared */,
+				218F51442C74AA08006CA259 /* SimctlTests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,6 +440,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218F51432C74AA08006CA259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218F51592C74B7A1006CA259 /* resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +500,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		218F51412C74AA08006CA259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				218F51482C74AA08006CA259 /* SimctlTests.swift in Sources */,
+				218F51502C74B120006CA259 /* SimulatorDeviceListingTests.swift in Sources */,
+				218F51572C74B782006CA259 /* TestBundleResources.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -411,6 +517,26 @@
 			isa = PBXTargetDependency;
 			target = 21479EB52C5D885000A316A0 /* SimctlShared */;
 			targetProxy = 21479EE82C5D8D1F00A316A0 /* PBXContainerItemProxy */;
+		};
+		218F51402C74A964006CA259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21479EB52C5D885000A316A0 /* SimctlShared */;
+			targetProxy = 218F513F2C74A964006CA259 /* PBXContainerItemProxy */;
+		};
+		218F514B2C74AA08006CA259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 213EF6A72C5284F70061475A /* Simctl */;
+			targetProxy = 218F514A2C74AA08006CA259 /* PBXContainerItemProxy */;
+		};
+		218F51522C74B598006CA259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21479EB52C5D885000A316A0 /* SimctlShared */;
+			targetProxy = 218F51512C74B598006CA259 /* PBXContainerItemProxy */;
+		};
+		218F51552C74B5A6006CA259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21479EB52C5D885000A316A0 /* SimctlShared */;
+			targetProxy = 218F51542C74B5A6006CA259 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -470,6 +596,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -530,6 +657,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -560,12 +688,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.Simctl";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -593,12 +725,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.Simctl";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -632,13 +768,16 @@
 		21479EBD2C5D885000A316A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -646,14 +785,57 @@
 		21479EBE2C5D885000A316A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				EXECUTABLE_PREFIX = lib;
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		218F514D2C74AA08006CA259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		218F514E2C74AA08006CA259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pandora.foundation.ta-infra.SimctlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -692,6 +874,15 @@
 			buildConfigurations = (
 				21479EBD2C5D885000A316A0 /* Debug */,
 				21479EBE2C5D885000A316A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218F514C2C74AA08006CA259 /* Build configuration list for PBXNativeTarget "SimctlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218F514D2C74AA08006CA259 /* Debug */,
+				218F514E2C74AA08006CA259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
