@@ -16,33 +16,29 @@ extension SimulatorDeviceListing: Decodable {
   }
 }
 
-public struct SimulatorDevice {
+public struct SimulatorDevice: Decodable {
   public let udid: UUID
   public let name: String
   public let isAvailable: Bool
-  public let deviceTypeIdentifier: String
+  public let deviceTypeIdentifier: String?
   public let state: State
   public let logPath: URL
   public let dataPath: URL
 }
-extension SimulatorDevice {
-  public var deviceId: String {
+public extension SimulatorDevice {
+  var deviceId: String {
     udid.uuidString
   }
-}
 
-extension SimulatorDevice: CustomStringConvertible {
-  public var description: String {
+  var description: String {
     "<SimulatorDevice[\(deviceId)]: \(name) (\(state))>"
   }
 }
 
 extension SimulatorDevice {
-  public enum State: String {
+  public enum State: String, Decodable {
     case shutdown = "Shutdown"
     case booted = "Booted"
   }
 }
 
-extension SimulatorDevice: Decodable { }
-extension SimulatorDevice.State: Decodable { }

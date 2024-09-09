@@ -15,67 +15,67 @@ extension ShellOutCommand {
     if clonedDevicesList.map({ $0.deviceId }).contains(deviceId) {
       return simctlForClones(_:)
     }
-
+    
     let regularDevicesList = listRegularDevices()
     if regularDevicesList.map({ $0.deviceId }).contains(deviceId) {
       return simctlForRegular(_:)
     }
-
+    
     fatalError("Unexpected device ID: \(deviceId)!")
   }
-
+  
   static func openSimulator() -> ShellOutCommand {
     .init(string: "open -b com.apple.iphonesimulator")
   }
-
+  
   static func killAllSimulators() -> ShellOutCommand {
     .init(string: "killall Simulator")
   }
-
+  
   private static func simctlForRegular(_ cmd: String) -> String {
     "xcrun simctl \(cmd)"
   }
-
+  
   private static func simctlForClones(_ cmd: String) -> String {
     "xcrun simctl --set testing \(cmd)"
   }
-
+  
   static func simctlBoot(device: UUID) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("boot \(device.uuidString)"))
   }
-
+  
   static func simctlShutdown(device: UUID) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("shutdown \(device.uuidString)"))
   }
-
+  
   static func simctlOpen(url: URL, on device: UUID) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("openurl \(device.uuidString) \(url.absoluteString)"))
   }
-
+  
   /// Usage: simctl ui <device> <option> [<arguments>]
   static func simctlSetUI(appearance: DeviceAppearance, on device: UUID) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("ui \(device.uuidString) appearance \(appearance.rawValue)"))
   }
-
+  
   /// xcrun simctl push <device> com.example.my-app ExamplePush.apns
   /// simctl push <device> [<bundle identifier>] (<json file> | -)
   static func simctlPush(to device: UUID, pushContent: PushNotificationContent, bundleIdentifier: String? = nil) -> ShellOutCommand {
     switch pushContent {
     case let .file(url):
       return .init(string: simctlCommand(for: device.uuidString)("push \(device.uuidString) \(bundleIdentifier ?? "") \(url.path)"))
-
+      
     case let .jsonPayload(data):
       var jsonString = String(data: data, encoding: .utf8) ?? ""
       jsonString = jsonString.replacingOccurrences(of: "\n", with: "")
       return .init(string: simctlCommand(for: device.uuidString)("push \(device.uuidString) \(bundleIdentifier ?? "") - <<< '\(jsonString)'"))
     }
   }
-
+  
   ///  simctl privacy <device> <action> <service> [<bundle identifier>]
   static func simctlPrivacy(_ action: PrivacyAction, permissionsFor service: PrivacyService, on device: UUID, bundleIdentifier: String?) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("privacy \(device.uuidString) \(action.rawValue) \(service.rawValue) \(bundleIdentifier ?? "")"))
   }
-
+  
   /// Rename a device.
   ///
   /// Usage: simctl rename <device> <name>
@@ -86,7 +86,7 @@ extension ShellOutCommand {
   static func simctlRename(device: UUID, to name: String) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("rename \(device.uuidString) \(name)"))
   }
-
+  
   /// Terminate an application by identifier on a device.
   ///
   /// Usage: simctl terminate <device> <app bundle identifier>
@@ -97,15 +97,15 @@ extension ShellOutCommand {
   static func simctlTerminateApp(device: UUID, appBundleIdentifier: String) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("terminate \(device.uuidString) \(appBundleIdentifier)"))
   }
-
+  
   static func simctlErase(device: UUID) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("erase \(device.uuidString)"))
   }
-
+  
   static func simctlEraseKeychain(device: UUID) -> ShellOutCommand {
-      .init(string: simctlCommand(for: device.uuidString)("keychain \(device.uuidString) reset"))
+    .init(string: simctlCommand(for: device.uuidString)("keychain \(device.uuidString) reset"))
   }
-
+  
   /// Trigger iCloud sync on a device.
   ///
   /// Usage: simctl icloud_sync <device>
@@ -114,7 +114,7 @@ extension ShellOutCommand {
   static func simctlTriggerICloudSync(device: UUID) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("icloud_sync \(device.uuidString)"))
   }
-
+  
   /// Uninstall an app from a device.
   ///
   /// Usage: simctl uninstall <device> <app bundle identifier>
@@ -125,7 +125,7 @@ extension ShellOutCommand {
   static func simctlUninstallApp(device: UUID, appBundleIdentifier: String) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("uninstall \(device.uuidString) \(appBundleIdentifier)"))
   }
-
+  
   /// Install an xcappdata package to a device, replacing the current contents of the container.
   ///
   /// Usage: simctl install_app_data <device> <path to xcappdata package>
@@ -133,7 +133,7 @@ extension ShellOutCommand {
   static func simctlInstallAppData(device: UUID, appData: URL) -> ShellOutCommand {
     .init(string: simctlCommand(for: device.uuidString)("install_app_data \(device.uuidString) \(appData.path)"))
   }
-
+  
   /// Print the path of the installed app's container
   ///
   /// Usage: simctl get_app_container <device> <app bundle identifier> [<container>]
