@@ -91,6 +91,14 @@ public class SimctlClient {
   public func triggerICloudSync(_ completion: @escaping DataTaskCallback) {
     dataTask(.triggerICloudSync(env), completion)
   }
+  
+  /// Install an app from this device.
+  /// - Parameters:
+  ///   - appBundlePath: The path to the app that should be installed.
+  ///   - completion: Result callback of the call. Use this to wait for an expectation to fulfill in a test case.
+  public func installApp(_ appBundlePath: String, _ completion: @escaping DataTaskCallback) {
+    dataTask(.installApp(env, appBundlePath), completion)
+  }
 
   /// Uninstall an app from this device.
   /// - Parameters:

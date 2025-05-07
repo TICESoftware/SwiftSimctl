@@ -11,6 +11,7 @@ extension SimctlClient {
     case eraseKeychain(SimctlClientEnvironment)
     case setDeviceAppearance(SimctlClientEnvironment, DeviceAppearance)
     case triggerICloudSync(SimctlClientEnvironment)
+    case installApp(SimctlClientEnvironment, String)
     case uninstallApp(SimctlClientEnvironment, String)
     case openURL(SimctlClientEnvironment, URLContainer)
     case getAppContainer(SimctlClientEnvironment, AppContainer?)
@@ -29,6 +30,7 @@ extension SimctlClient {
           .eraseKeychain,
           .setDeviceAppearance,
           .triggerICloudSync,
+          .installApp,
           .uninstallApp:
         return .get
       }
@@ -59,6 +61,9 @@ extension SimctlClient {
 
       case .triggerICloudSync:
         return .iCloudSync
+      
+      case .installApp:
+        return .installApp
 
       case .uninstallApp:
         return .uninstallApp
@@ -101,6 +106,11 @@ extension SimctlClient {
         var fields = setEnv(env)
         fields.append(HeaderField(.deviceName, name))
         return fields
+        
+      case let .installApp(env, appBundlePath):
+        var fields = setEnv(env)
+        fields.append(HeaderField(.appBundlePath, appBundlePath))
+        return fields
 
       case let .terminateApp(env, appBundleIdentifier),
         let .uninstallApp(env, appBundleIdentifier):
@@ -134,6 +144,7 @@ extension SimctlClient {
           .eraseKeychain,
           .setDeviceAppearance,
           .triggerICloudSync,
+          .installApp,
           .uninstallApp:
         return nil
       }
